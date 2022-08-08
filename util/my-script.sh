@@ -1,4 +1,6 @@
 # 새로 산 m1 맥 세팅용 스크립트 파일
+# 홈브루, 깃업데이트, 아이떰 설치 및 세팅
+
 today=${date}
 echo $today
 echo 'createdAt : 2022 0808'
