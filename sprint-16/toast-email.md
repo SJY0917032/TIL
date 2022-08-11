@@ -64,5 +64,3 @@ appKey : String (고유 AppKey)
     }
 }
 ```
-
-테스트
