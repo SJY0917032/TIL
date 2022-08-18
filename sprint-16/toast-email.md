@@ -72,8 +72,6 @@ appKey : String (고유 AppKey)
 
 결제시 -> 결제자 + 운전자..? 몇명한테 메일이가야하지
 
-아무튼 유저관련한건 대부분 decrypt해야할듯..? 확실한 정보가 넘어오지 않는다.
-
 예약번호  : cst trl 번호 그대로 보내줘야하는지?  
 유저네임 : driver_name  
 핸드폰 : driver_phone  
