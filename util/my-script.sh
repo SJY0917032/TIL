@@ -22,6 +22,9 @@ echo "iterm2 install"
 
 brew install --cask iterm2
 
+echo "tree install"
+brew install tree
+
 echo "ohmyzsh install"
 
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
