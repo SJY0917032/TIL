@@ -1,3 +1,5 @@
+import { Enum, EnumType } from "ts-jenum";
+
 class App {
   private constructor() {}
 
@@ -12,10 +14,21 @@ class App {
   }
 }
 
+@Enum("app")
+class EnumApp extends EnumType<EnumApp>() {
+  
+  static readonly instance = new EnumApp();
+
+  private constructor(){
+    super()
+  }
+
+}
+
 
 function a() {
-  const a = App.getApp()
-  const b = App.getApp()
+  const a = EnumApp()
+  const b = EnumApp()
 
   console.log(a === b)
 }
